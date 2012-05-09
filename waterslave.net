@@ -1,214 +1,183 @@
-# EESchema Netlist Version 1.1 created  Sun 06 May 2012 10:13:46 PM EDT
+# EESchema Netlist Version 1.1 created  Wed 09 May 2012 03:58:05 PM EDT
 (
- ( /4FA6EEE7 SM1206 C1 100nF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FAABD46 TQFP32  IC1 ATMEGA328P-A {Lib=ATMEGA328P-A}
+  (    1 ? )
+  (    2 ? )
+  (    3 GND )
+  (    4 VCC )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000021 )
+  (    8 N-000022 )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 N-000040 )
+  (   13 /RFDATA )
+  (   14 N-000039 )
+  (   15 /MOSI )
+  (   16 /MISO )
+  (   17 /SCK )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+  (   21 GND )
+  (   22 ? )
+  (   23 ? )
+  (   24 ? )
+  (   25 ? )
+  (   26 ? )
+  (   27 ? )
+  (   28 ? )
+  (   29 /RESET )
+  (   30 /RX )
+  (   31 /TX )
+  (   32 ? )
  )
- ( /4FA6EEE9 SM1206 C2 100nF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FA72F3D $noname  P9 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FA6EEC0 C1V8 C3 100uF
-  ( 1 +12V )
-  ( 2 GND )
+ ( /4FA72F3A $noname  P8 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FA6EEC3 C1V8 C4 100uF
-  ( 1 VCC )
-  ( 2 GND )
+ ( /4FA72F38 $noname  P7 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FA6E0DD SM1206 C5 22pF
-  ( 1 N-000022 )
-  ( 2 GND )
+ ( /4FA72F31 $noname  P6 CONN_1 {Lib=CONN_1}
+  (    1 ? )
  )
- ( /4FA6E0E1 SM1206 C6 22pF
-  ( 1 N-000023 )
-  ( 2 GND )
+ ( /4FA71763 $noname  U1 LM7805 {Lib=LM7805}
+  (  GND GND )
+  (   VI N-000014 )
+  (   VO VCC )
  )
- ( /4FA6EB62 LED-1206 D1 LED
-  ( 1 N-000016 )
-  ( 2 N-000024 )
+ ( /4FA6F808 $noname  P4 CONN_6 {Lib=CONN_6}
+  (    1 GND )
+  (    2 ? )
+  (    3 VCC )
+  (    4 /RX )
+  (    5 /TX )
+  (    6 /RESET )
  )
- ( /4FA6EB6F LED-1206 D2 LED
-  ( 1 N-000014 )
-  ( 2 GND )
+ ( /4FA6F7F3 $noname  P5 CONN_2 {Lib=CONN_2}
+  (    1 N-000015 )
+  (    2 GND )
  )
- ( /4FA6ED91 D5 D3 DIODE
-  ( 1 N-000018 )
-  ( 2 +12V )
+ ( /4FA6F7A1 $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 +12V )
+  (    2 GND )
  )
- ( /4FA6EF17 LED-1206 D4 LED
-  ( 1 N-000037 )
-  ( 2 N-000033 )
+ ( /4FA6F0F0 $noname  D5 DIODE {Lib=DIODE}
+  (    1 +12V )
+  (    2 N-000014 )
  )
- ( /4FA6F0F0 D5 D5 DIODE
-  ( 1 N-000038 )
-  ( 2 +12V )
+ ( /4FA6EF20 $noname  R4 1K {Lib=R}
+  (    1 N-000011 )
+  (    2 GND )
  )
- ( /4FA6ECA2 SM1812 F1 FUSE
-  ( 1 +12V )
-  ( 2 N-000011 )
+ ( /4FA6EF17 $noname  D4 LED {Lib=LED}
+  (    1 N-000015 )
+  (    2 N-000011 )
  )
- ( /4FA6E051 DIP-28__300 IC1 ATMEGA328P-P
-  ( 1 /RESET )
-  ( 2 /RX )
-  ( 3 /TX )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 VCC )
-  ( 8 GND )
-  ( 9 N-000022 )
-  ( 10 N-000023 )
-  ( 11 ? )
-  ( 12 ? )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 /RFDATA )
-  ( 16 N-000043 )
-  ( 17 /MOSI )
-  ( 18 /MISO )
-  ( 19 /SCK )
-  ( 20 ? )
-  ( 21 ? )
-  ( 22 GND )
-  ( 23 N-000024 )
-  ( 24 ? )
-  ( 25 ? )
-  ( 26 ? )
-  ( 27 ? )
-  ( 28 ? )
+ ( /4FA6EEE9 $noname  C2 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4FA6E794 pin_array_3x2 P1 CONN_3X2
-  ( 1 /MISO )
-  ( 2 VCC )
-  ( 3 /SCK )
-  ( 4 /MOSI )
-  ( 5 /RESET )
-  ( 6 GND )
+ ( /4FA6EEE7 $noname  C1 100nF {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /4FA6E7DA PIN_ARRAY_4x1 P2 CONN_4
-  ( 1 GND )
-  ( 2 ? )
-  ( 3 /RFDATA )
-  ( 4 VCC )
+ ( /4FA6EEC3 $noname  C4 100uF {Lib=CP1}
+  (    1 VCC )
+  (    2 ? )
  )
- ( /4FA6F7A1 SCREW-3.5MM-2 P3 CONN_2
-  ( 1 N-000038 )
-  ( 2 GND )
+ ( /4FA6EEC0 $noname  C3 100uF {Lib=CP1}
+  (    1 +12V )
+  (    2 GND )
  )
- ( /4FA6F808 PIN_ARRAY-6X1 P4 CONN_6
-  ( 1 GND )
-  ( 2 ? )
-  ( 3 VCC )
-  ( 4 /RX )
-  ( 5 /TX )
-  ( 6 /RESET )
+ ( /4FA6EDA1 $noname  R3 10K {Lib=R}
+  (    1 N-000039 )
+  (    2 N-000003 )
  )
- ( /4FA6F7F3 SCREW-3.5MM-2 P5 CONN_2
-  ( 1 N-000037 )
-  ( 2 GND )
+ ( /4FA6ED91 $noname  D3 DIODE {Lib=DIODE}
+  (    1 N-000046 )
+  (    2 +12V )
  )
- ( /4FA72F31 M3HOLE P6 CONN_1
-  ( 1 ? )
+ ( /4FA6ED76 TO92-EBC  Q1 BC237 {Lib=BC237}
+  (    B N-000003 )
+  (    C N-000046 )
+  (    E GND )
  )
- ( /4FA72F38 M3HOLE P7 CONN_1
-  ( 1 ? )
+ ( /4FA6ECA2 $noname  F1 FUSE {Lib=FUSE}
+  (    1 +12V )
+  (    2 N-000038 )
  )
- ( /4FA72F3A M3HOLE P8 CONN_1
-  ( 1 ? )
+ ( /4FA6EC40 $noname  U2 RELAY-SPDT {Lib=RELAY-SPDT}
+  (    1 N-000015 )
+  (    2 N-000046 )
+  (    3 N-000038 )
+  (    4 ? )
+  (    5 +12V )
  )
- ( /4FA72F3D M3HOLE P9 CONN_1
-  ( 1 ? )
+ ( /4FA6EB7D $noname  R2 1K {Lib=R}
+  (    1 N-000035 )
+  (    2 VCC )
  )
- ( /4FA6ED76 TO92-EBC Q1 BC237
-  ( B N-000017 )
-  ( C N-000018 )
-  ( E GND )
+ ( /4FA6EB79 $noname  R1 1K {Lib=R}
+  (    1 N-000036 )
+  (    2 VCC )
  )
- ( /4FA6EB79 SM1206 R1 1K
-  ( 1 N-000016 )
-  ( 2 VCC )
+ ( /4FA6EB6F $noname  D2 LED {Lib=LED}
+  (    1 N-000035 )
+  (    2 GND )
  )
- ( /4FA6EB7D SM1206 R2 1K
-  ( 1 N-000014 )
-  ( 2 VCC )
+ ( /4FA6EB62 $noname  D1 LED {Lib=LED}
+  (    1 N-000036 )
+  (    2 N-000040 )
  )
- ( /4FA6EDA1 SM1206 R3 10K
-  ( 1 N-000043 )
-  ( 2 N-000017 )
+ ( /4FA6E7DA $noname  P2 CONN_4 {Lib=CONN_4}
+  (    1 GND )
+  (    2 ? )
+  (    3 /RFDATA )
+  (    4 VCC )
  )
- ( /4FA6EF20 SM1206 R4 1K
-  ( 1 N-000033 )
-  ( 2 GND )
+ ( /4FA6E794 $noname  P1 CONN_3X2 {Lib=CONN_3X2}
+  (    1 /MISO )
+  (    2 VCC )
+  (    3 /SCK )
+  (    4 /MOSI )
+  (    5 /RESET )
+  (    6 GND )
  )
- ( /4FA71763 TO220_VERT_7805 U1 LM7805
-  ( GND GND )
-  ( VI +12V )
-  ( VO VCC )
+ ( /4FA6E0E1 $noname  C6 22pF {Lib=C}
+  (    1 N-000022 )
+  (    2 GND )
  )
- ( /4FA6EC40 OMROM-G5LE U2 RELAY-SPDT
-  ( 1 N-000037 )
-  ( 2 +12V )
-  ( 3 N-000011 )
-  ( 4 ? )
-  ( 5 N-000018 )
+ ( /4FA6E0DD $noname  C5 22pF {Lib=C}
+  (    1 N-000021 )
+  (    2 GND )
  )
- ( /4FA6E075 HC-49V X1 CRYSTAL
-  ( 1 N-000023 )
-  ( 2 N-000022 )
+ ( /4FA6E075 $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000022 )
+  (    2 N-000021 )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
- SM*
- C?
- C1-1
+$component IC1
+ 28DIP-ELL600
+ 28dip600
 $endlist
-$component C2
- SM*
- C?
- C1-1
-$endlist
-$component C3
- CP*
- SM*
-$endlist
-$component C4
- CP*
- SM*
-$endlist
-$component C5
- SM*
- C?
- C1-1
-$endlist
-$component C6
- SM*
- C?
- C1-1
-$endlist
-$component D1
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D2
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D3
+$component D5
  D?
  S*
+$endlist
+$component R4
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
 $endlist
 $component D4
  LED-3MM
@@ -219,30 +188,23 @@ $component D4
  LED-1206
  LEDV
 $endlist
-$component D5
- D?
- S*
+$component C2
+ SM*
+ C?
+ C1-1
 $endlist
-$component IC1
- 28DIP-ELL600
- 28dip600
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
-$component Q1
- TO92-EBC
+$component C4
+ CP*
+ SM*
 $endlist
-$component R1
- R?
- SM0603
- SM0805
- R?-*
- SM1206
-$endlist
-$component R2
- R?
- SM0603
- SM0805
- R?-*
- SM1206
+$component C3
+ CP*
+ SM*
 $endlist
 $component R3
  R?
@@ -251,12 +213,156 @@ $component R3
  R?-*
  SM1206
 $endlist
-$component R4
+$component D3
+ D?
+ S*
+$endlist
+$component Q1
+ TO92-EBC
+$endlist
+$component R2
  R?
  SM0603
  SM0805
  R?-*
  SM1206
 $endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D2
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component D1
+ LED-3MM
+ LED-5MM
+ LED-10MM
+ LED-0603
+ LED-0805
+ LED-1206
+ LEDV
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 2 "+12V" "+12V"
+ D3 2
+ F1 1
+ U2 5
+ C3 1
+ P3 1
+ D5 1
+Net 3 "" ""
+ R3 2
+ Q1 B
+Net 4 "VCC" "VCC"
+ P4 3
+ IC1 6
+ C4 1
+ C1 1
+ P2 4
+ C2 1
+ P1 2
+ R1 2
+ R2 2
+ IC1 4
+ U1 VO
+Net 11 "" ""
+ D4 2
+ R4 1
+Net 14 "" ""
+ D5 2
+ U1 VI
+Net 15 "" ""
+ U2 1
+ D4 1
+ P5 1
+Net 16 "/RESET" "RESET"
+ P4 6
+ IC1 29
+ P1 5
+Net 17 "/TX" "TX"
+ IC1 31
+ P4 5
+Net 18 "/RX" "RX"
+ IC1 30
+ P4 4
+Net 20 "/MISO" "MISO"
+ P1 1
+ IC1 16
+Net 21 "" ""
+ X1 2
+ C5 1
+ IC1 7
+Net 22 "" ""
+ C6 1
+ IC1 8
+ X1 1
+Net 23 "/MOSI" "MOSI"
+ IC1 15
+ P1 4
+Net 24 "/SCK" "SCK"
+ IC1 17
+ P1 3
+Net 35 "" ""
+ D2 1
+ R2 1
+Net 36 "" ""
+ D1 1
+ R1 1
+Net 38 "" ""
+ F1 2
+ U2 3
+Net 39 "" ""
+ IC1 14
+ R3 1
+Net 40 "" ""
+ D1 2
+ IC1 12
+Net 44 "/RFDATA" "RFDATA"
+ IC1 13
+ P2 3
+Net 45 "GND" "GND"
+ IC1 5
+ IC1 3
+ U1 GND
+ C5 2
+ P1 6
+ IC1 21
+ P2 1
+ P4 1
+ P3 2
+ R4 2
+ P5 2
+ C2 2
+ C3 2
+ C6 2
+ C1 2
+ Q1 E
+ D2 2
+Net 46 "" ""
+ D3 1
+ Q1 C
+ U2 2
+}
+#End

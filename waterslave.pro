@@ -1,6 +1,6 @@
-update=Sun 06 May 2012 06:23:36 PM EDT
+update=Wed 09 May 2012 03:48:29 PM EDT
 version=1
-last_client=cvpcb
+last_client=eeschema
 [general]
 version=1
 [pcbnew]
@@ -35,6 +35,11 @@ LibName11=valves
 LibName12=waterslave
 LibName13=/home/guan/manhattan/manhattan
 LibDir=
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
 LibDir=
@@ -97,11 +102,5 @@ LibName27=opto
 LibName28=atmel
 LibName29=contrib
 LibName30=valves
-LibName31=relays
-LibName32=waterslave
-LibName33=/home/guan/manhattan/manhattan
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName31=waterslave
+LibName32=/home/guan/manhattan/manhattan
